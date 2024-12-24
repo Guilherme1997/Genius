@@ -1,59 +1,53 @@
-# Genius
+# Projeto Angular 19
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+Este é um projeto desenvolvido com Angular 19. Siga as etapas abaixo para configurar e executar o projeto em sua máquina local.
 
-## Development server
+## Requisitos
 
-To start a local development server, run:
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
-```bash
+- [Node.js](https://nodejs.org/en/) (Versão recomendada: LTS)
+- [npm](https://www.npmjs.com/) (Instalado automaticamente com o Node.js)
+- [Angular CLI](https://angular.io/cli) (Instalado globalmente via npm)
+
+Você pode verificar as versões das ferramentas instaladas com os seguintes comandos:
+
+node -v
+npm -v
+ng v
+
+Passos para Executar o Projeto
+1. Clonar o Repositório
+Primeiro, clone o repositório do projeto para sua máquina local:
+
+bash
+Copiar código
+git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/Guilherme1997/genius.git)
+cd genius
+
+2. Instalar Dependências
+Dentro do diretório do projeto, instale as dependências do projeto usando o npm:
+
+npm install
+Isso irá baixar todas as dependências necessárias para o projeto.
+
+3. Executar o Servidor de Desenvolvimento
+Após a instalação das dependências, execute o servidor de desenvolvimento com o seguinte comando:
+
 ng serve
-```
+Isso iniciará o servidor de desenvolvimento. O projeto estará disponível em http://localhost:4200.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+4. Acessar o Projeto no Navegador
+Abra o seu navegador e acesse: http://localhost:4200
 
-## Code scaffolding
+Você verá a aplicação Angular sendo executada localmente.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+![image](https://github.com/user-attachments/assets/9d122487-2f58-4208-a024-7d1a7514677e)
 
-```bash
-ng generate component component-name
-```
+Comandos Úteis:
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- ng serve - Inicia o servidor de desenvolvimento (default: http://localhost:4200).
+- ng build - Compila o projeto para produção.
+- ng test - Executa os testes do projeto.
+- ng lint - Executa a verificação de código (Linting).
+- ng e2e - Executa os testes de ponta a ponta (end-to-end).
