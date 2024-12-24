@@ -1,6 +1,6 @@
 # Projeto Angular 19
 
-Este é um projeto de **Jogo de Memória** desenvolvido com **Angular 19**. O objetivo do jogo é desafiar a memória do usuário com pares de cores. 
+Este é um projeto de **Jogo de Memória** desenvolvido com **Angular 19**. O objetivo do jogo é desafiar a memória do usuário com sequências de cores. 
 Siga as etapas abaixo para configurar e executar o projeto em sua máquina local.
 
 ## Requisitos
