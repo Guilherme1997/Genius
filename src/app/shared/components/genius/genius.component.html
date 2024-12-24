@@ -1,0 +1,29 @@
+
+
+<div style="height: 100%;" class="container night-mode night-mode-transition">
+    <main style="height: 100%;" class="">
+        <section style="height: 100%;" #genius class="game border-genius">
+            <button class="clickable top-left round-corner pointer yellow-disabled" (click)="adicionarJogadaParaUsuario($event)"
+                matRipple [matRippleColor]="'rgb(255, 255, 105)'" id="yellow" [disabled]="bloqueaBotao">
+            </button>
+            <button class="clickable top-right round-corner pointer blue-disabled" (click)="adicionarJogadaParaUsuario($event)"
+                matRipple [matRippleColor]="'rgb(35, 167, 255)'" id="blue" [disabled]="bloqueaBotao">
+            </button>
+            <button class="clickable bottom-left round-corner pointer red-disabled" (click)="adicionarJogadaParaUsuario($event)"
+                matRipple [matRippleColor]="'rgb(255, 36, 36)'" id="red" [disabled]="bloqueaBotao">
+            </button>
+            <button class="clickable bottom-right round-corner pointer green-disabled" (click)="adicionarJogadaParaUsuario($event)"
+                matRipple [matRippleColor]="'rgb(25, 255, 25)'" id="green" [disabled]="bloqueaBotao">
+            </button>
+            <div class="control-container perfect-center">
+                <div (click)="iniciar()" #botaoIniciar class="control perfect-center">
+                    <div class="background">
+                    </div>
+                    <p class="text">
+                        COMEÇAR
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
