@@ -17,6 +17,10 @@ export class GeniusComponent implements OnInit {
   private botaoAcionado: HTMLElement | undefined;
   private acertos = 0;
 
+
+
+
+  
   @ViewChild('botaoIniciar', { static: false }) botaoIniciar!: ElementRef;
   @ViewChild('genius', { static: false }) genius!: ElementRef;
 
