@@ -26,7 +26,7 @@ cd genius
 2. Instalar Dependências
 Dentro do diretório do projeto instale as dependências usando o npm:
 "npm install"
-
+<br/>
 Isso irá baixar todas as dependências necessárias para o projeto.
 
 3. Executar o Servidor de Desenvolvimento
