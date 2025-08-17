@@ -29,13 +29,13 @@ cd genius
 2. Instalar Dependências
 Dentro do diretório do projeto, instale as dependências do projeto usando o npm:
 
-npm install
+"npm install"
 Isso irá baixar todas as dependências necessárias para o projeto.
 
 3. Executar o Servidor de Desenvolvimento
 Após a instalação das dependências, execute o servidor de desenvolvimento com o seguinte comando:
 
-ng serve
+"ng serve"
 Isso iniciará o servidor de desenvolvimento. O projeto estará disponível em http://localhost:4200.
 
 4. Acessar o Projeto no Navegador
