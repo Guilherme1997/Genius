@@ -21,13 +21,11 @@ Passos para Executar o Projeto
 1. Clonar o Repositório
 Primeiro, clone o repositório do projeto para sua máquina local:
 
-bash
-Copiar código
-git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/Guilherme1997/genius.git)
+git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/Guilherme1997/genius.git).
 cd genius
 
 2. Instalar Dependências
-Dentro do diretório do projeto, instale as dependências do projeto usando o npm:
+Dentro do diretório do projeto instale as dependências usando o npm:
 
 "npm install"
 Isso irá baixar todas as dependências necessárias para o projeto.
