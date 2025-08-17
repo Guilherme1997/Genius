@@ -19,11 +19,11 @@ ng v
 
 Passos para Executar o Projeto
 1. Clonar o Repositório.
-<br/>
+2. 
 git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/Guilherme1997/genius.git).
 cd genius
 
-2. Instalar Dependências
+3. Instalar Dependências
 Dentro do diretório do projeto instale as dependências usando o npm:
 
 "npm install"
