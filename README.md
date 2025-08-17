@@ -7,7 +7,7 @@ Siga as etapas abaixo para configurar e executar o projeto em sua máquina local
 
 Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
-- [Node.js](https://nodejs.org/en/) (Versão recomendada: LTS)
+- [Node.js](https://nodejs.org/en/) (Versão recomendada: 10.7.0)
 - [npm](https://www.npmjs.com/) (Instalado automaticamente com o Node.js)
 - [Angular CLI](https://angular.io/cli) (Instalado globalmente via npm)
 
