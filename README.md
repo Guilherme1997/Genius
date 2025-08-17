@@ -18,9 +18,8 @@ npm -v
 ng v
 
 Passos para Executar o Projeto
-1. Clonar o Repositório
-Primeiro, clone o repositório do projeto para sua máquina local:
-
+1. Clonar o Repositório.
+<br/>
 git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/Guilherme1997/genius.git).
 cd genius
 
